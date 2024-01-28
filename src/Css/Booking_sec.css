@@ -1,0 +1,64 @@
+
+
+.Booking{
+
+background-color: white;
+border-radius: 10px;
+padding: 50px;
+
+}
+.container-inner{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .card-wrapper .container-inner .content {
+      width: 100%;
+      margin-bottom: 1rem; /* Adjust as needed */
+    }  .book {
+      width: 100%;
+    }
+    .container-inner{
+
+        display: block;
+        margin-top: 20px;
+
+        margin-bottom: 50px;
+    }
+    .book-btn{
+
+        margin-top: 15px;
+    }
+  }
+  @media (max-width: 500px) {
+  
+    .Booking{
+   
+        padding: 5px;
+        background-color: rgba(240, 240, 240, 0.769);
+    }
+
+    .book-btn{
+
+        margin-top: 15px;
+    }
+    .container-inner{
+
+        display: block;
+        margin-top: 20px;
+padding: 5px;
+     
+    }
+
+  }
+    
+
+
+
+

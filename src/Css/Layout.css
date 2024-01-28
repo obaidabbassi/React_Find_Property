@@ -1,0 +1,47 @@
+
+
+.navbar {
+
+margin: auto;
+    width: 80%;
+}
+
+.nav{
+
+ 
+}
+.layout{
+
+
+    color:red;
+}
+
+.nav-item a{
+
+margin-left: 20px;
+}
+.logo-name{
+
+text-decoration: none;
+    
+}
+
+
+@media screen and (max-width: 1300px) {
+    .nav-item a{
+font-size: 14px;
+       
+        }
+  
+  }
+  
+
+
+@media screen and (max-width: 991px) {
+    .nav-item a{
+font-size: 14px;
+       
+        }
+  
+  }
+  

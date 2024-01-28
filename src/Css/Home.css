@@ -1,0 +1,115 @@
+.Hero{
+
+height: 80vh;
+background-color: antiquewhite;
+background-image: url('/public/Images/hero.jpg');
+background-position: center;
+background-size: cover;
+object-fit: cover;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+
+}
+
+
+.hero-text{
+
+
+    text-align: center;
+
+    width: 50%;
+}
+
+.hero-text>h1{
+
+
+    font-weight: 900;
+
+    
+}
+
+.comfort h1{
+
+
+ font-weight: 900;
+}
+
+
+.comfort{
+
+
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-room{
+
+    background-image: url('/public/Images/bg-room.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+
+    height: 100vh;
+    display: flex;
+    position: relative;
+
+ 
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .hero-text{
+
+        width: 100%;
+    }
+
+
+  }
+
+
+  @media (max-width: 500px) {
+
+
+    .hero-text{
+
+        width: 100%;
+        margin-top: 80%;
+        font-size: 1rem;
+    }
+
+    .hero-text h1{
+
+        font-size: 1.5rem;
+    }
+
+    .Carosel{
+
+
+        margin-top: 2%;
+    }
+
+    
+
+
+  }

@@ -1,0 +1,344 @@
+.Hero{
+
+    height: 80vh;
+    background-color: antiquewhite;
+    background-image: url('/public/Images/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+    }
+    
+    .bg-room{
+    
+        background-image: url('/public/Images/bg-room.jpg');
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+    
+        height: 100vh;
+        display: flex;
+        position: relative;
+    
+     
+    
+    }
+    
+    
+    
+    
+    
+    
+    .hero-text{
+    
+    width: 50%;
+    
+    }
+    
+    
+    .hero-text h1{
+    font-weight: 800;
+    font-size: 3rem;
+        
+        }
+    
+    
+    .card-wrapper{
+    width: 100%;
+    background-color: white;
+    height: 20vh;
+    border-radius: 10px;
+    position: relative;
+    top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px rgb(160, 160, 160);
+    }
+    
+    .container-inner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    
+    }
+    .book{
+    
+    
+    
+        padding: 20px 40px;
+        font-size:20px ;
+    }
+    
+    .form-select{
+    
+    
+        font-size: 20px;
+        margin-bottom: 30px;
+    
+    }
+    
+    
+    .form-select:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    }
+    
+    
+    
+    
+    .dark{
+    
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    margin-top:0px;
+        background-color: black;
+        color: #ffffff;
+        height: 30vh;
+        padding-top: 50px;
+    }
+    
+    .lux{
+    
+    
+        height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+    
+    }
+    
+    
+    .rht h1{
+    
+    font-weight: 800;
+    
+    }
+    .lft img:hover{
+    
+        transition: 1s ease-in-out;
+        cursor: pointer;
+        transform: scale(1.02);
+    
+    }
+    
+    
+    
+    .crd{
+    width: 30vw;
+        height:35vh;
+        position:absolute;
+        top: 300px;
+        left: 50%;
+    }
+    .crd h1{
+    
+        font-weight: 800;
+    }
+    
+    .img-text{
+    
+    
+        display: flex;
+    
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        text-align:justify;
+    
+    }
+    
+    .img-text h1{
+    
+    
+        font-weight: 900;
+    }
+    .img-text img:hover{
+    
+        transition: 1s ease-in-out;
+        cursor: pointer;
+        transform: scale(1.01);
+    
+    }
+    
+    @keyframes slideFromRightToLeft {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity:1;
+        }
+    }
+    
+    
+    
+    
+    
+    @media screen and (max-width: 768px) {
+    
+        .hero-text{
+    
+            width: 100%;
+        }
+        .card-wrapper{
+    
+           width: 100%; 
+           top:100px;
+           height: 20vh;
+           padding: 10px;
+        }
+    
+        .content>span{
+    
+            font-size: 10px;
+            width: 100%;
+        }
+    
+        .container-lux{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+        }
+        .lux{
+    
+     
+        }
+        .lux h1 p{
+            text-align: center;
+        }
+        .rht{
+    
+            width: 100%;
+            text-align: center !important;
+        }
+        .book{
+    
+            padding:10px;
+           
+         }
+    
+        .container-inner{
+    
+            width: 100%;
+            gap:15px;
+        }
+       
+    
+        .container-inner select{
+    
+         font-size: 0.8rem;
+        }
+    
+    
+        .crd{
+    width: 50%;
+    left:30%;
+    height: 40vh;
+        }
+    
+      }
+      
+    
+    
+    
+    
+    
+      @media screen and (max-width: 628px) {
+    
+    
+    
+        .crd{
+            width: 70%;
+            left:20%;
+            height: 40vh;
+                }
+    
+      }
+    
+    
+    
+    
+    
+    
+    
+      @media screen and (max-width: 500px) {
+    
+    
+    
+        .crd{
+            width: 70%;
+            left:20%;
+            height: 40vh;
+                }
+              
+      }
+    
+    
+    
+    
+      @media screen and (max-width: 389px) {
+    
+    
+         .container-inner{
+    
+            width: 100%;
+            gap:5px;
+        }
+        .card-wrapper{
+            top: 20px;
+        }
+    
+        .crd{
+            width: 70%;
+            left: 20%;
+            height: 50vh;
+            top: 10%;
+        }
+    
+    
+        .cont-card{
+    
+    
+            margin-top: 150px;
+        }
+         
+      }
+    
+    
+      @media screen and (max-width: 347px) {
+    
+    .crd{
+        width: 70%;
+        left: 20%;
+        height: 30vh;
+        top: 10%;
+    }
+         .crd p{
+    
+            font-size: 1.5rem;
+         }    
+         .card-wrapper{
+            top: 10px;
+        }
+           
+             
+     }
+    
+    
+    

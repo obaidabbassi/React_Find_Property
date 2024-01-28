@@ -1,0 +1,41 @@
+.footer {
+    /* Basic styling */
+    background-color: #0d6efd;
+    padding: 20px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .one, .two, .three {
+    flex-basis: 30%; /* Adjust for desired column widths */
+    padding: 0 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .footer {
+      flex-wrap: wrap; /* Wrap columns for smaller screens */
+    }
+  
+    .one, .two, .three {
+      flex-basis: 100%; /* Make columns full-width on smaller screens */
+      text-align: center; /* Center content for better readability */
+    }
+  
+    .footer-content {
+      order: 1; /* Move copyright text to the top on smaller screens */
+    }
+  }
+  
