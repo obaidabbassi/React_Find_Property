@@ -1,0 +1,55 @@
+.left-sec{
+
+
+    background-image: url('/public/Images/loginpage.jpg');
+
+    height: 50vh;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+color: white;
+flex-direction: column;
+    justify-content: center;
+}
+
+.left-sec h2{
+
+font-weight: 900;
+}
+
+.right-sec{
+
+
+    display: flex;
+  
+
+flex-direction: column;
+    justify-content: center;
+
+}
+
+.right-sec a{
+
+    text-decoration: none;
+}
+.right-sec h2{
+
+  font-weight: 700;
+}
+
+li{
+
+     list-style: none;
+}
+li a{
+
+    color:rgba(0, 0, 255, 0.391);
+   
+}
+
+@media (max-width: 768px) {
+
+
+    
+    }

@@ -13,7 +13,7 @@ const Home = () => {
 
 <div className="container hero-text">
 
-<h1 className='text-white animate__animated animate__bounce'>Find a <span className='text-primary '>dream</span> home to <span className='text-primary'>live</span> in</h1>
+<h1 className='text-white '>Find a <span className='text-primary '>dream</span> home to <span className='text-primary'>live</span> in</h1>
 <p className='text-white'>Finding your dream home is an exciting
 journey that involves envisioning a place where you can create 
 lasting memories. A haven of comfort and personal expression,

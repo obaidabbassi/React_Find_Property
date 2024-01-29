@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Css/Nav.css'
 import {Link,Outlet} from "react-router-dom";
+import Swal from 'sweetalert2'
 const Nav = () => {
   return (
     <>
@@ -33,11 +34,17 @@ const Nav = () => {
       <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+         <li className="nav-item" style={{listStyle:"none",marginTop:"10px"}}>
+        <Link to="/Login">Login</Link>
+        </li>
+      </form> 
     </div>
 
     </div>
- 
+  
+
+
+
 </nav>
 
 

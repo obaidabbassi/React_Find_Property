@@ -10,8 +10,9 @@ import Places from "./Pages/Places";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import NoPage from "./Pages/NoPage";
-import Signin from './Pages/Signin';
+
 import Signup from './Pages/Signup';
+import Login from './Pages/Login';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
 
-          <Route path="signin" element={<Signin />} />
+          <Route path="login" element={<Login />} />
 
           <Route path="signup" element={<Signup />} />
           <Route path="*" element={<NoPage />} />
