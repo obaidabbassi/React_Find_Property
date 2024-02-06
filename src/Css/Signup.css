@@ -1,0 +1,18 @@
+
+.loader-btn{
+
+visibility:hidden;
+
+}
+
+.showLoader{
+
+
+    visibility: visible;
+}
+
+.hideLoader{
+
+    visibility:hidden;
+
+}

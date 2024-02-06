@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Css/Contact.css'
 import Footer from '../Components/Footer'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 const Contact = () => {
   return (
 <>
@@ -48,15 +50,16 @@ const Contact = () => {
 
 <div className="container glass-wrapper  ">
 
-<div className="card glass">
+<div className="card glass text-white">
 
 <h4 className='text-center'>ComfortZone</h4>
 <p className='text-center'> <i class="fas fa-phone"></i> 11-365-365</p>
 <p className='text-center'>  <i class="fas fa-envelope"></i>  comfortzone@mail.com</p>
-<ul class="social-icons ">
-    <li><a href="#"><i class="fab fa-facebook"></i> facebook</a></li>
-    <li><a href="#"><i class="fab fa-twitter"></i> twitter</a></li>
-    <li><a href="#"><i class="fab fa-instagram"></i> instagram</a></li>
+<ul class="social-icons m-2 p-2 gap-3 ">
+ 
+    <FontAwesomeIcon icon={faFacebook} />
+    <FontAwesomeIcon icon={faTwitter} />
+    <FontAwesomeIcon icon={faLinkedin} />
   </ul>
 </div>
 

@@ -13,6 +13,7 @@ import NoPage from "./Pages/NoPage";
 
 import Signup from './Pages/Signup';
 import Login from './Pages/Login';
+import Register from './Pages/Register';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,7 @@ function App() {
           <Route path="places" element={<Places />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
-
+          <Route path="register" element={<Register />} />
           <Route path="login" element={<Login />} />
 
           <Route path="signup" element={<Signup />} />
